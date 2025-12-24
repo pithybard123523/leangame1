@@ -1,20 +1,16 @@
-import Game.Levels.DemoWorld
+import Game.Levels.TutorialWorld
 
 -- Here's what we'll put on the title screen
-Title "Hello World Game"
+Title "Vector Game"
 Introduction
 "
-This text appears on the starting page where one selects the world/level to play.
-You can use **markdown**.
+The game is about the vector laws proving.Click the Tutorial World to start!
 "
 
 Info "
-Here you can put additional information about the game. It is accessible
-from the starting through the drop-down menu.
-
-For example: Game version, Credits, Link to Github and Zulip, etc.
-
-Use **markdown**.
+author:pithybard123523
+elan version:4.1
+lake version:4.2
 "
 
 /-! Information to be displayed on the servers landing page. -/
