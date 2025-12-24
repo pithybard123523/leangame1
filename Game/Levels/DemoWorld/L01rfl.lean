@@ -14,10 +14,6 @@ Introduction "when A Vector is equal to another Vector,it means their Vec.x and 
 
 Statement (x y : Nat) (v s:vec): v=s := by
   Hint "You should use the tactic'exact' first to let the Vec.x is devided from Vec.y"
-  Branch
-    rw [g]
-    Hint "You should use `{h}` now."
-    rw [
   exact
   Hint "Then use the tactic'rfl' twice to prove"
   rfl
