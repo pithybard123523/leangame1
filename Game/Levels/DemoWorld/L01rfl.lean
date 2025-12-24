@@ -1,6 +1,6 @@
 import Game.Metadata
 
-World "DemoWorld"
+World "TutorialWorld"
 Level 1
 
 Title "the rfl tactic"
