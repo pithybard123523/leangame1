@@ -1,0 +1,11 @@
+import GameServer.Commands
+World"DemoWorld"
+Level 2
+Title"the rw tactic"
+Introduction"In the level,you will know how to use the tactic-rw"
+statement 
+    (v:vec)(x y z:Nat)(h:y=x):v=v:=by
+  exact
+  rw[h]
+  rfl
+  rfl
