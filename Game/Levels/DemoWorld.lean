@@ -1,8 +1,9 @@
-import Game.Levels.DemoWorld.L01_HelloWorld
+import Game.Levels.DemoWorld.L01rfl
+import Game.Levels.DemoWorld.L02rw
 
-World "DemoWorld"
-Title "Demo World"
+World "Tutorial World"
+Title "Tutorial World"
 
 Introduction "
-This introduction is shown before one enters level 1 of the demo world. Use markdown.
+This World explain the basic definition and tactic.Now click the start button to explore it!
 "
