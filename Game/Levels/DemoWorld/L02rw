@@ -1,5 +1,5 @@
 import GameServer.Commands
-World"DemoWorld"
+World"TutorialWorld"
 Level 2
 Title"the rw tactic"
 Introduction"In the level,you will know how to use the tactic-rw"
