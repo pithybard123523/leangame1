@@ -1,5 +1,5 @@
 import GameServer
-import VectorGame.Basic
+import Game.VectorGame.Basic
 
 
 open Vec2

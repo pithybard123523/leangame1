@@ -1,6 +1,6 @@
 import GameServer
-import VectorGame.Basic
-import VectorGame.AdditionWorld
+import Game.VectorGame.Basic
+import Game.VectorGame.AdditionWorld
 
 
 open Vec2

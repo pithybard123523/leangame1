@@ -1,5 +1,5 @@
 import GameServer
-import VectorGame.MultiWorld
+import Game.VectorGame.MultiWorld
 import Mathlib
 
 
