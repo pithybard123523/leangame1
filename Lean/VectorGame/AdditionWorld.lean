@@ -1,5 +1,6 @@
+namespace Game.VectorGame.AdditionWorld
 import GameServer
-import Game.VectorGame.Basic
+import VectorGame.Basic
 
 
 open Vec2
@@ -70,3 +71,4 @@ ring
 
 cases a
 simp
+end Game.VectorGame.AdditionWorld

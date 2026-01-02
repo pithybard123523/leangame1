@@ -1,3 +1,4 @@
+namespace Game.VectorGame.MultiWorld
 import GameServer
 
 
@@ -57,3 +58,4 @@ nlinarith
 
 
 exact ⟨Vec2.dot_nonneg v, Vec2.dot_eq_zero_iff v⟩
+end Game.VectorGame.MultiWorld

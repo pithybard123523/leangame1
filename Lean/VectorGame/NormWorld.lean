@@ -1,5 +1,6 @@
+namespace Game.VectorGame.NormWorld
 import GameServer
-import Game.VectorGame.MultiWorld
+import VectorGame.MultiWorld
 import Mathlib
 
 
@@ -54,3 +55,4 @@ simpa [Vec2.norm_smul] using this
 have : |(1 / Vec2.norm v)| * Vec2.norm v = 1 := by
 field_simp [abs_div]
 simpa [Vec2.norm_smul] using this
+end Game.VectorGame.NormWorld

@@ -1,5 +1,6 @@
+namespace Game.VectorGame.TutorialWorld
 import GameServer
-import Game.VectorGame.Basic
+import VectorGame.Basic
 
 
 open Vec2
@@ -46,3 +47,4 @@ exact Vec2.ext h.1 h.2
 
 
 exact Vec2.ext h.1 h.2
+end Game.VectorGame.TutorialWorld

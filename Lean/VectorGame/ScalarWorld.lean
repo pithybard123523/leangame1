@@ -1,6 +1,7 @@
+namespace Game.VectorGame.ScalarWorld
 import GameServer
-import Game.VectorGame.Basic
-import Game.VectorGame.AdditionWorld
+import VectorGame.Basic
+import VectorGame.AdditionWorld
 
 
 open Vec2
@@ -68,3 +69,4 @@ ring
 
 cases v; cases w
 ring
+end Game.VectorGame.ScalarWorld
