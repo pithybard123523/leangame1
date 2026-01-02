@@ -1,21 +1,22 @@
 {
+  "name": "Lean4Game",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
   "forwardPorts": [3000],
-  "onCreateCommand": {
-    "npm_install": "bash .devcontainer/npm-install.sh",
-    "lake_build": "bash .devcontainer/lean-install.sh"
-  },
-  "postAttachCommand": "bash .devcontainer/run-server.sh",
+
   "customizations": {
     "vscode": {
-      "settings": {
-        "remote.autoForwardPorts": false
-      },
       "extensions": [
         "leanprover.lean4"
-      ]
+      ],
+      "settings": {
+        "remote.autoForwardPorts": false
+      }
     },
     "codespaces": {
       "openFiles": ["Game.lean"]
     }
-  }
+  },
+
+  "postCreateCommand": "bash .devcontainer/lean-install.sh"
 }
