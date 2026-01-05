@@ -1,4 +1,3 @@
-namespace Game.VectorGame.TutorialWorld
 import GameServer
 import VectorGame.Basic
 
